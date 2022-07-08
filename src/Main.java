@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println("You should choose the range of numbers and after we will start the game!\n(Number should be more or equal to 0 and maximal number should not be less than or equal to minimal number!)");
 
-
+        String test = "Test for VCS";
 
         while(true){
             System.out.print("Enter minimal number: ");
