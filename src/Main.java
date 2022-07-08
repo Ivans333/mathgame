@@ -57,11 +57,22 @@ public class Main {
             System.out.println("Current score:\nComputer - " + computer.getScore() + "\n" + player.getName() + "'s - " + player.getScore());
             if(player.getScore() == 3){
                 System.out.println("Player Won! Thank you for the game!");
+                System.out.println("Do you want to Play once again? Choose: \"1\" to start new Game, or \"2\" to finish the session! ");
+                int finalChoice = input.nextInt();
+                if (finalChoice == 1){
+                    computer.setScore(0);
+                    player.setScore(0);
+                }
             } else if(computer.getScore() == 3) {
                 System.out.println("Computer Won! Thank you for the game!");
+                System.out.println("Do you want to Play once again? Choose: \"1\" to start new Game, or any other key to finish the session! ");
+                int finalChoice = input.nextInt();
+                if (finalChoice == 1){
+                    computer.setScore(0);
+                    player.setScore(0);
+                }
             }
+
         }
-
-
+        }
     }
-}
