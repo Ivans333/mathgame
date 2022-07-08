@@ -2,7 +2,7 @@
 public class Player {
     private String name;
     private int score;
-    private int numberOfGuess = 3;
+    private int numberOfGuess;
 
     // Setters
 

@@ -41,4 +41,10 @@ public class Computer {
     public int getMaximalNumber() {
         return maximalNumber;
     }
+
+    // regular methods
+
+    public void increaseScore() {
+        this.score +=1;
+    }
 }
