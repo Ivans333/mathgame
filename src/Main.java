@@ -43,6 +43,7 @@ public class Main {
                 if (playersChoice == computer.getImaginedNumber()){
                     System.out.println("Nice you won!");
                     player.increaseScore();
+                    player.setNumberOfGuess(0);
                 } else {
                     player.reduceNumberOfGuess();
                     if(player.getNumberOfGuess() > 0){
