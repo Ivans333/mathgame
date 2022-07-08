@@ -55,7 +55,11 @@ public class Main {
                 }
             }
             System.out.println("Current score:\nComputer - " + computer.getScore() + "\n" + player.getName() + "'s - " + player.getScore());
-
+            if(player.getScore() == 3){
+                System.out.println("Player Won! Thank you for the game!");
+            } else if(computer.getScore() == 3) {
+                System.out.println("Computer Won! Thank you for the game!");
+            }
         }
 
 
