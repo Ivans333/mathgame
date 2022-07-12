@@ -16,6 +16,7 @@ public class Computer {
         this.maximalNumber = maximalNumber;
     }
 
+    // number which we will guess
     public void setImaginedNumber() {
         this.imaginedNumber = (int)(Math.random() * (maximalNumber - minimalNumber + 1) + minimalNumber);
     }
